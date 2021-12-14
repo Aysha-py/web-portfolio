@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(./img/footer.jpg);
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.main-content{
+    
+    height: 800px;
+}
+.content{
+  
+    display: flex;
+    padding: 30px;
+    scroll-behavior: smooth;
+    
+    
+   
+    
+    
+}
+.content-txt{
+    font-family: 'Dancing Script', cursive;
+    width: 60vw;
+  
+}
+.content-txt h1{
+    margin: -30px 0px 20px 0px;
+    font-size: 2.3rem;
+}
+.content img{
+    width: 100%;
+    height:auto;
+}
+
+.content-img h2{
+    text-align: center;
+    
+}
+#about{
+    font-family:  'Zen Kurenaido', sans-serif;
+    width: 30vw;
+    margin-top: 200px;
+}
+#connect{
+   font-family:  'Zen Kurenaido', sans-serif;
+   font-style: italic;
+    text-align: center;
+    margin-top:150px; 
+   
+}
+.content-icon{
+  text-align: end;
+  justify-content:end;
+  margin-left: 300px;
+}
+
+.content-icon ul{
+   text-decoration: none;
+   color: black;
+   margin-top: 150px;
+   font-family: 'Zen Kurenaido', sans-serif;
+}
+.content-icon li{
+    font-size: 2rem;
+    
+}
+.content-icon a{
+text-decoration: none;
+color: white;
+}
+.socials{
+    
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:-200px;
+
+  
+ 
+   
+}
+.social-link{
+
+    text-align: center;
+
+    
+   
+    
+
+
+}
+
+.social-link:hover{
+    background-color:white;
+    color: black;
+    
+    
+}
+
+
+
+
+#dropdown{
+    
+    display:none;
+    list-style: none;
+    
+
+}
+
+#dropdown ul{
+    
+    background:black;
+    margin: 2px;
+}
+
+#toggle-btn{
+    background: blueviolet;
+    padding: 2px !important;
+
+}
+
+#toggle-btn button{
+    color: black;
+;
+   
+    
+   
+}
+#dropdown a{
+    color: black;
+
+}
+form{
+  height: 800px;
+    
+    text-align: center;
+     margin: auto;
+    color: rgb(235, 231, 231);
+    font-family:  'Zen Kurenaido', sans-serif;
+    padding: 300px;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7))
+    
+}
+#my-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+   
+    
+    box-shadow: 10px 10px 10px #ffffff,
+                10px -10px 5px #ffffff;
+                border-radius: 40px;
+
+}
+#my-form input{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+
+background:rgb(104, 104, 104);
+box-shadow: 6px -6px 5px rgb(218, 214, 214),
+            -6px 6px 20px white;
+}
+
+
+#send{
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: black; 
+
+background:rgb(104, 104, 104);
+box-shadow: 6px -6px 5px rgb(218, 214, 214),
+            -6px 6px 20px white;
+}
+
