@@ -56,6 +56,7 @@ body{
     font-family:  'Zen Kurenaido', sans-serif;
     width: 30vw;
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 #connect{
    font-family:  'Zen Kurenaido', sans-serif;
@@ -119,6 +120,8 @@ color: white;
     
     display:none;
     list-style: none;
+    margin: 0px 2px 0px -55px;
+    
     
 
 }
@@ -126,25 +129,72 @@ color: white;
 #dropdown ul{
     
     background:black;
-    margin: 2px;
+   
+  
+   
 }
 
 #toggle-btn{
-    background: blueviolet;
+   
     padding: 2px !important;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: all 0.7s ease-out;
+   
+    
 
 }
 
 #toggle-btn button{
     color: black;
-;
+    padding: 0px !important;
+    width: 50px;
    
     
+
+}
+
+#toggle-btn:hover{
+    background-color: burlywood;
+    
+}
+    
+#dropdown{
+    padding: -10px;
+    margin-top:10px !important;
+    width: 250px;
+  
+    
+
+}
+#dropdown a:hover{
+    color: black;
+    font-size: 2.5rem;
+}
+
+#dropdown li:hover{
    
+    width: 300px;
+    background-color:white;
+    transition: all 0.5s ease-in;
+    color: black;
+    
+    
 }
 #dropdown a{
-    color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 100px;
+    
 
+
+}
+
+#dropdown li{
+    border: 1px solid;
+    margin: 20px;
+    text-align: center;
 }
 form{
   height: 800px;
