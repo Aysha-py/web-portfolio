@@ -281,9 +281,14 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
        margin: 20px;
    }
 
+   #dots li{
+       font-size: 1.5rem;
+       padding: 5px;
+   }
+
    #dots{
       background-color: black;
-     
+      margin:0px;
    }
 
    form{
@@ -301,5 +306,10 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
     margin-top: 200px;
    
    }
-
+   #connect{
+       padding: 10px;
+       margin-top: 20px;
+       
+   }
+   
 }
