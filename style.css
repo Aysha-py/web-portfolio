@@ -264,7 +264,18 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
      
        overflow-x: hidden;
    }
-  
+   
+body{
+    background-image: url(./img/footer.jpg);
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
    
    .content{
        display:flex;
