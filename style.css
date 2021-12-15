@@ -252,6 +252,7 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
        margin: 0;
        padding: 0;
    }
+  
    .main-content{
      width: 100vw;
       color: white;
@@ -287,17 +288,19 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
       
    }
 
-   form{
-    height: 800px;
-    text-align: center;
-    margin: auto;
-    width: 100vw;
+form{
+    
+    width: 1000px;
     padding: 10px;
+    margin-top: 500px;
+   
 }
 
     #my-form{
-        width: 70vw;
-        
+        display: flex;
+        padding: 40gpx;
+        border: none; 
+       
 
     }
 }
