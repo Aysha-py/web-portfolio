@@ -147,12 +147,14 @@ color: white;
     justify-content: flex-end;
     margin-left: 150px;
     border: 1px solid;
-    border-radius: 20px;
+    height:42px;
+    
 }
 
 #toggle-btn button{
     color: black;
     justify-content: flex-end;
+    
     
    
     
