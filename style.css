@@ -322,7 +322,36 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
     text-decoration: none;
     color: white;
 }
+.portfolio{
+    margin-top: 100px;
+}
+#portfolio-heading{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 40px;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+.portfolio h1:hover{
+  
+    opacity: 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7));
+    padding: 40px;
 
+}
+.portfolio-content{
+    width: 80vw;
+    margin: auto;
+    
+}
+.portfolio-content h6{
+    
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1.5rem;
+}
 @media screen and (max-width:420px){
    
    
