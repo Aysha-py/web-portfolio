@@ -39,6 +39,7 @@ body{
     display: flex;
     padding: 30px;
     scroll-behavior: smooth;
+   
     
     
    
@@ -54,6 +55,7 @@ body{
 .content-dots{
     display: flex;
     justify-content: space-between;
+  
 }
 #logo{
     width: 80vw;
@@ -79,11 +81,7 @@ body{
     margin-top:150px; 
    
 }
-.content-icon{
-  text-align: end;
-  justify-content:end;
 
-}
 
 .content-icon ul{
    text-decoration: none;
@@ -267,9 +265,7 @@ background:rgb(104, 104, 104);
 box-shadow: 6px -6px 5px rgb(218, 214, 214),
             -6px 6px 20px white;
 }
-.project-tile{
-   
-}
+
 
 #individual-project{
     
@@ -356,7 +352,7 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
    }
 
    form{
-       width: 70vw;
+      
        height: 800px;
         padding: 0 !important;
     text-align: center;
