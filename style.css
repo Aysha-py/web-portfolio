@@ -11,8 +11,7 @@ body{
     background-image: url(./img/footer.jpg);
     background-color: black;
     color: white;
-    height:100vh;
-    width: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
     background-position: center;
@@ -207,7 +206,7 @@ color: white;
     margin: 20px;
     text-align: center;
 }
-.contact-form{
+#contact-form{
     
     align-items: center;
     display: flex;
@@ -220,20 +219,25 @@ color: white;
 
 form{
     width: 60vw;
-    height: 800px;
+    height: 600px;
     text-align: center;
-   margin-top: 200px;
+    margin-top: 200px;
     color: rgb(235, 231, 231);
     font-family:  'Zen Kurenaido', sans-serif;
    
   
     
 }
+#form-heading{
+    margin:10px;
+}
+
 #my-form{
     display: flex;
     flex-direction: column;
     padding: 20px;
     border: none;
+    margin:20px;
    
     
     box-shadow: 10px 10px 10px #ffffff,
@@ -266,6 +270,41 @@ background:rgb(104, 104, 104);
 box-shadow: 6px -6px 5px rgb(218, 214, 214),
             -6px 6px 20px white;
 }
+.project-tile{
+    padding: 20px;
+}
+
+#individual-project{
+    
+    
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    border-radius:10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7));
+    padding: 50px;
+ 
+   
+}
+
+.project{
+  margin: 20px; 
+  
+    box-shadow: azure 3px; 
+   
+}
+.project img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.project img:hover{
+    border-radius: 30px;
+    opacity: 0.1;
+
+}
 
 @media screen and (max-width:420px){
    
@@ -281,7 +320,9 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
        width: 100vw;
      
    }
-  
+   #about{
+       margin: 20px;
+   }
 
    #dots li{
        font-size: 1.5rem;
@@ -313,5 +354,10 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
        margin-top: 30px;
        
    }
-   
+
+    #individual-project{
+
+    display: flex;
+    flex-direction: column;
+    }
 }
