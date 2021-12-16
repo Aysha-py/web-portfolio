@@ -352,7 +352,7 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
    }
 
    form{
-      
+      width: 100vw;
        height: 800px;
         padding: 0 !important;
     text-align: center;
