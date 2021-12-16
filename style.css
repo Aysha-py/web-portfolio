@@ -103,20 +103,17 @@ color: white;
 .socials{
     
   display: flex;
-  justify-content: space-around;
-  margin-bottom:-200px;
+  justify-content: center;
+  margin-top: 200px;
+  
+
 
   
  
    
 }
 .social-link{
-
-    text-align: center;
-
-    
-   
-    
+ margin: 40px;
 
 
 }
@@ -271,7 +268,7 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
             -6px 6px 20px white;
 }
 .project-tile{
-    padding: 20px;
+   
 }
 
 #individual-project{
@@ -287,10 +284,24 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
  
    
 }
-
-.project{
-  margin: 20px; 
+.project-tile h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 40px;
+    font-size: 2rem;
+    opacity: 0.7;
+   
+}
+.project-tile h1:hover{
   
+    opacity: 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7));
+    padding: 50px;
+
+}
+.project{
+    margin: 20px; 
     box-shadow: azure 3px; 
    
 }
@@ -304,6 +315,16 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
     border-radius: 30px;
     opacity: 0.1;
 
+}
+.project h5{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.project a{
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width:420px){
