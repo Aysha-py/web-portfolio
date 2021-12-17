@@ -25,6 +25,7 @@ body{
 
     text-align: center;
     font-family:  'Zen Kurenaido', sans-serif;
+    padding: 80px;
     
    
     
@@ -34,17 +35,21 @@ body{
     
     height: 800px;
 }
+
 .content{
   
     display: flex;
     padding: 30px;
     scroll-behavior: smooth;
-   
+    position: fixed;
+    z-index: 1; 
     
     
-   
-    
-    
+}
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 .content-txt{
     font-family: 'Dancing Script', cursive;
@@ -56,6 +61,9 @@ body{
     display: flex;
     justify-content: space-between;
   
+}
+#dots a{
+    font-size: 1.2rem;
 }
 #logo{
     width: 80vw;
@@ -354,6 +362,32 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 1.5rem;
 }
+footer{
+    margin: 1px solid;
+    background: black;
+    height: 200px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-icon .social-link{
+    margin-top: 60px;
+}
+.footer-icon svg{
+    opacity: 0.3;
+}
+footer h4{
+    text-align: center;
+    opacity: 0.4;
+    font-family:'Dancing Script', cursive;
+}
+footer h5{
+    text-align: center;
+    opacity: 0.5;
+    font-family:'Times New Roman', Times, serif;
+}
 @media screen and (max-width:420px){
    
    
@@ -381,12 +415,12 @@ box-shadow: 6px -6px 5px rgb(218, 214, 214),
     }
 
    #dots li{
-       font-size: 1.5rem;
+     
        padding: 5px;
    }
 
    #dots{
-      background-color: black;
+     
       margin:0px;
       display: none;
     
