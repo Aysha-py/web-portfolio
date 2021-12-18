@@ -400,7 +400,7 @@ footer h5{
    .content-dots{
        display: flex;
        flex-direction: column;
-       width: 100vw;
+      
      
    }
    #about{
