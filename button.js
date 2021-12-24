@@ -1,5 +1,3 @@
-
-
 function toggle(){
     let button = document.getElementById("dropdown")
     let toggleBtn = document.getElementById("toggle-btn")
